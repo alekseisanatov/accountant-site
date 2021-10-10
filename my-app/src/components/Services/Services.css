@@ -1,0 +1,26 @@
+.services {
+  background: #EBEBEB;
+  padding: 140px 70px;
+}
+
+.services__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+}
+
+.services__title {
+  margin: 0 0 40px 0;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 33px;
+  color: #BDBDBD;
+}
+
+.services__subtitle {
+  margin: 0 0 100px 0;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 69px;
+  color: #333333;
+}

@@ -1,0 +1,35 @@
+.card {
+  position: relative;
+  padding: 20px;
+  width: 360px;
+  height: 360px;
+  border: 1px solid #005FA3;
+}
+
+.card__title {
+  z-index: 2;
+  color: #000;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.card__text {
+  color: #000;
+}
+
+.card__price {
+  color: #930c0c;
+  max-width: 320px;
+}
+
+.card__link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  transition: color .5s;
+}
+
+
+.card__link:hover {
+  color: #005FA3;
+}

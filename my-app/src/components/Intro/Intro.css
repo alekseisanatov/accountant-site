@@ -1,0 +1,33 @@
+.intro {
+  padding: 140px 70px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro__title {
+  margin: 50px 0 10px 0;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 45px;
+  color: #fff;
+  max-width: 80%;
+}
+
+.intro__button {
+  margin-top: 60px;
+  width: 270px;
+  height: 60px;
+  background-color: #005FA3;
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  transition: opacity .5s;
+}
+
+.intro__button:hover {
+  opacity: .7;
+}

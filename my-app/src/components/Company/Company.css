@@ -1,0 +1,70 @@
+.company {
+
+  margin: 140px auto 80px auto;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1110px;
+  column-gap: 30px;
+  justify-items: center;
+}
+
+.company__numbers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+.company__number {
+  padding: 40px;
+  width: 185px;
+  height: 185px;
+  background-color: #EBEBEB;
+}
+
+.company__number_type_blue {
+  background-color: #005FA3;
+}
+
+.company__num {
+  margin: 0 0 30px 0;
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 66px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.company__num-text {
+  margin: 0;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.company__title {
+  margin: 0 0 20px 0;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 33px;
+  color: #BDBDBD;
+}
+
+.company__subtitle {
+  margin: 0 0 20px 0;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 69px;
+  color: #005FA3;
+}
+
+.company__text {
+  margin-top: 20px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+}
