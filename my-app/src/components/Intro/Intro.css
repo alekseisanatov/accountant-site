@@ -31,3 +31,38 @@
 .intro__button:hover {
   opacity: .7;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding: 80px 30px;
+  }
+  .intro__title {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .intro__button {
+    margin: 60px auto 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding-bottom: 0;
+  }
+  .intro__title {
+    font-size: 29px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .intro {
+    padding: 80px 10px 40px 10px;
+    min-height: 400px;
+  }
+  .intro__title {
+    margin-top: 20px;
+    font-size: 21px;
+    line-height: 28px;
+    width: 100%;
+  }
+}

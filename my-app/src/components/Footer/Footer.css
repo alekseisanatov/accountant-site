@@ -102,3 +102,55 @@
 .footer__button:hover {
   opacity: .8;
 }
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding-bottom: 50px;
+    grid-template-columns: 500px;
+    row-gap: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    grid-template-columns: 450px;
+    row-gap: 50px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer {
+    padding: 50px 20px;
+    grid-template-columns: 280px;
+  }
+  .footer__data {
+    display: block;
+  }
+  .footer__title {
+    text-align: center;
+    font-size: 31px;
+    line-height: 33px;
+  }
+  .footer__form-up {
+    grid-template-columns: 1fr;
+  }
+  .footer__cont {
+    margin: 10px 0px 10px 10px;
+  }
+  .footer__item {
+    justify-content: center;
+  }
+  .footer__text {
+    font-size: 15px;
+    text-align: center;
+  }
+  .footer__button {
+    width: 100%;
+  }
+  .footer__input {
+    font-size: 16px;
+  }
+  .footer__input::placeholder {
+    font-size: 16px;
+  }
+}

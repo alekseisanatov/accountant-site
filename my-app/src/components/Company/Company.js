@@ -3,7 +3,7 @@ import './Company.css';
 
 function Company() {
   return (
-    <div className={'company'}>
+    <div className={'company'} id={'company'}>
       <div className="company__text">
         <h2 className="company__title">Par mums</h2>
         <h3 className="company__subtitle">MyBalance</h3>

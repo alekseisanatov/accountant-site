@@ -5,12 +5,14 @@ import EmailLogo from '../../images/EmailLogo.svg';
 import bg from '../../images/IntroBg.jpg';
 
 const styleFooter = {
-  background: `url(${bg})`
+  background: `url(${bg})`,
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover'
 }
 
 function Footer() {
   return (
-    <footer className={'footer'} style={styleFooter}>
+    <footer className={'footer'} id={'footer'} style={styleFooter}>
       <div className="footer__contacts">
         <h2 className="footer__title">Sazinies ar mums</h2>
         <div className="footer__text">Jums palika jautajumi? Sazinies ar mums un mes atbildesim tuvakaja laika</div>
